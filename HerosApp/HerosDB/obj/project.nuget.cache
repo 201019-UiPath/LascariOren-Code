@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "8EJtoIvnFFWiEZEeH62ea01yPlPItKAfPAjiFoSHDdsRp0NAsG/Q9u5ns32oAa933WM8Gl0D6tOyU5YtVC3CSg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\orenl\\Desktop\\code\\Repository\\HerosApp\\HerosDB\\HerosDB.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\orenl\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\orenl\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
