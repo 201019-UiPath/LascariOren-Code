@@ -1,0 +1,30 @@
+uipath batch-> rpa
+
+week 1-4 .net
+week 1 c#
+week 2 SQL
+week 3 asp.net(mvc, SOAP and RESTful)
+week 4 front tech(HTML,css,js,vb)
+week 5-8 uipath
+uipath foundation studio 
+uipath advanced-reframework and orchectrator
+uipath new features and adnvanced training-hyperautomation adn elk
+week 9-10 final project
+portfolios, client interviews and showcase
+
+
+quizes every morning 10 questions easy
+every monday other quiz
+
+9-5 est
+10:30 15min break 1
+12:30-1:30
+15:00 break 2
+
+6-2 pst
+
+
+
+-------------------------------------------------------------------------
+
+.net => platform to create apps(cui, gui,microservices, cloud services, iot, game development)
