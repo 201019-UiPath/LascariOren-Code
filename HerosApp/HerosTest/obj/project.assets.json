@@ -901,6 +901,16 @@
         "build": {
           "build/netcoreapp1.0/xunit.runner.visualstudio.props": {}
         }
+      },
+      "HerosLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/HerosLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HerosLib.dll": {}
+        }
       }
     }
   },
@@ -3494,10 +3504,16 @@
         "xunit.runner.visualstudio.2.4.0.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "HerosLib/1.0.0": {
+      "type": "project",
+      "path": "../HerosLib/HerosLib.csproj",
+      "msbuildProject": "../HerosLib/HerosLib.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "HerosLib >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 16.5.0",
       "coverlet.collector >= 1.2.0",
       "xunit >= 2.4.0",
@@ -3510,24 +3526,30 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\orenl\\Desktop\\code\\Repository\\HerosApp\\HerosTest\\HerosTest.csproj",
+      "projectUniqueName": "C:\\Users\\orenl\\Desktop\\code\\trainercode\\1-CSharp\\HerosApp\\HerosTest\\HerosTest.csproj",
       "projectName": "HerosTest",
-      "projectPath": "C:\\Users\\orenl\\Desktop\\code\\Repository\\HerosApp\\HerosTest\\HerosTest.csproj",
+      "projectPath": "C:\\Users\\orenl\\Desktop\\code\\trainercode\\1-CSharp\\HerosApp\\HerosTest\\HerosTest.csproj",
       "packagesPath": "C:\\Users\\orenl\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\orenl\\Desktop\\code\\Repository\\HerosApp\\HerosTest\\obj\\",
+      "outputPath": "C:\\Users\\orenl\\Desktop\\code\\trainercode\\1-CSharp\\HerosApp\\HerosTest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\orenl\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\orenl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\orenl\\Desktop\\code\\trainercode\\1-CSharp\\HerosApp\\HerosLib\\HerosLib.csproj": {
+              "projectPath": "C:\\Users\\orenl\\Desktop\\code\\trainercode\\1-CSharp\\HerosApp\\HerosLib\\HerosLib.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

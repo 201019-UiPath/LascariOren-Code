@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YF3AgZoMQ420pseiw+QPXqmm1JmwNXdIME5mcY+BJfP0BdbnZi/HR5xJMUgkyCeb4OuF2qMMF939djOOeDto8w==",
+  "dgSpecHash": "ly0PUhFlNLr9t5ehgHR1m9VFI4SAlPnFGl92rMdXHRVSec/4kiwwwEjqALSE5IsKYeMZAMO/fReS5Fj6zC9kWA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\orenl\\Desktop\\code\\Repository\\HerosApp\\HerosTest\\HerosTest.csproj",
+  "projectFilePath": "C:\\Users\\orenl\\Desktop\\code\\trainercode\\1-CSharp\\HerosApp\\HerosTest\\HerosTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\orenl\\.nuget\\packages\\coverlet.collector\\1.2.0\\coverlet.collector.1.2.0.nupkg.sha512",
     "C:\\Users\\orenl\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",

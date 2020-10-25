@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6PC8kmXmab8JhmV9jPg5kdWDM6cGvzrPXUhgJD5TzJ1zI83LdYtULzv76Issokjdhna0+rteUaNoIv0j0sqc6w==",
+  "dgSpecHash": "/ZTCCatnhq0+0sywF7HTwZDCtRzKwQ8KmWUc3p4+UjR5qYTjytzFcXtPgBIQ3Dh6NplSvoiNcisS9OPUzQ0dqg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\orenl\\Desktop\\code\\Repository\\HerosApp\\HerosLib\\HerosLib.csproj",
+  "projectFilePath": "C:\\Users\\orenl\\Desktop\\code\\trainercode\\1-CSharp\\HerosApp\\HerosLib\\HerosLib.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\orenl\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\orenl\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"

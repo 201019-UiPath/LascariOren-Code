@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "D1a4whRi0lerEgMyIr61Mjzlyy4f2uzPJkof3hylYTBeHrCyJVRcOFJtmkfJ+PUfS5VJtaClsHFoYTNmBio5qg==",
+  "dgSpecHash": "z4XmQ1ttZ/LxZHACy2FVLD9Wfm92bcY4b0td18+5p3unNDeVZ/8rzsQ5g6fteoVHjluxTLLitElj73ofefC60g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\orenl\\Desktop\\code\\Repository\\HerosApp\\HerosUI\\HerosUI.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\orenl\\Desktop\\code\\trainercode\\1-CSharp\\HerosApp\\HerosUI\\HerosUI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\orenl\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512"
+  ],
   "logs": []
 }

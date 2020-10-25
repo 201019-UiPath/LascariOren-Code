@@ -1,11 +1,100 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "System.Text.Json/4.7.2": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/System.Text.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/System.Text.Json.dll": {}
+        }
+      },
+      "HerosBL/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "HerosDB": "1.0.0",
+          "HerosLib": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/HerosBL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HerosBL.dll": {}
+        }
+      },
+      "HerosDB/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "HerosLib": "1.0.0",
+          "System.Text.Json": "4.7.2"
+        },
+        "compile": {
+          "bin/placeholder/HerosDB.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HerosDB.dll": {}
+        }
+      },
+      "HerosLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/HerosLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HerosLib.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "System.Text.Json/4.7.2": {
+      "sha512": "TcMd95wcrubm9nHvJEQs70rC0H/8omiSGGpU4FQ/ZA1URIqD4pjmFJh2Mfv1yH1eHgJDWTi2hMDXwTET+zOOyg==",
+      "type": "package",
+      "path": "system.text.json/4.7.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Text.Json.dll",
+        "lib/net461/System.Text.Json.xml",
+        "lib/netcoreapp3.0/System.Text.Json.dll",
+        "lib/netcoreapp3.0/System.Text.Json.xml",
+        "lib/netstandard2.0/System.Text.Json.dll",
+        "lib/netstandard2.0/System.Text.Json.xml",
+        "system.text.json.4.7.2.nupkg.sha512",
+        "system.text.json.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "HerosBL/1.0.0": {
+      "type": "project",
+      "path": "../HerosBL/HerosBL.csproj",
+      "msbuildProject": "../HerosBL/HerosBL.csproj"
+    },
+    "HerosDB/1.0.0": {
+      "type": "project",
+      "path": "../HerosDB/HerosDB.csproj",
+      "msbuildProject": "../HerosDB/HerosDB.csproj"
+    },
+    "HerosLib/1.0.0": {
+      "type": "project",
+      "path": "../HerosLib/HerosLib.csproj",
+      "msbuildProject": "../HerosLib/HerosLib.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "HerosBL >= 1.0.0",
+      "HerosLib >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\orenl\\.nuget\\packages\\": {}
@@ -13,24 +102,33 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\orenl\\Desktop\\code\\Repository\\HerosApp\\HerosUI\\HerosUI.csproj",
+      "projectUniqueName": "C:\\Users\\orenl\\Desktop\\code\\trainercode\\1-CSharp\\HerosApp\\HerosUI\\HerosUI.csproj",
       "projectName": "HerosUI",
-      "projectPath": "C:\\Users\\orenl\\Desktop\\code\\Repository\\HerosApp\\HerosUI\\HerosUI.csproj",
+      "projectPath": "C:\\Users\\orenl\\Desktop\\code\\trainercode\\1-CSharp\\HerosApp\\HerosUI\\HerosUI.csproj",
       "packagesPath": "C:\\Users\\orenl\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\orenl\\Desktop\\code\\Repository\\HerosApp\\HerosUI\\obj\\",
+      "outputPath": "C:\\Users\\orenl\\Desktop\\code\\trainercode\\1-CSharp\\HerosApp\\HerosUI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\orenl\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\orenl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\orenl\\Desktop\\code\\trainercode\\1-CSharp\\HerosApp\\HerosBL\\HerosBL.csproj": {
+              "projectPath": "C:\\Users\\orenl\\Desktop\\code\\trainercode\\1-CSharp\\HerosApp\\HerosBL\\HerosBL.csproj"
+            },
+            "C:\\Users\\orenl\\Desktop\\code\\trainercode\\1-CSharp\\HerosApp\\HerosLib\\HerosLib.csproj": {
+              "projectPath": "C:\\Users\\orenl\\Desktop\\code\\trainercode\\1-CSharp\\HerosApp\\HerosLib\\HerosLib.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

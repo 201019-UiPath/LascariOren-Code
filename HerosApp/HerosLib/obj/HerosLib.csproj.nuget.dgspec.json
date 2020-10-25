@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\orenl\\Desktop\\code\\Repository\\HerosApp\\HerosLib\\HerosLib.csproj": {}
+    "C:\\Users\\orenl\\Desktop\\code\\trainercode\\1-CSharp\\HerosApp\\HerosLib\\HerosLib.csproj": {}
   },
   "projects": {
-    "C:\\Users\\orenl\\Desktop\\code\\Repository\\HerosApp\\HerosLib\\HerosLib.csproj": {
+    "C:\\Users\\orenl\\Desktop\\code\\trainercode\\1-CSharp\\HerosApp\\HerosLib\\HerosLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\orenl\\Desktop\\code\\Repository\\HerosApp\\HerosLib\\HerosLib.csproj",
+        "projectUniqueName": "C:\\Users\\orenl\\Desktop\\code\\trainercode\\1-CSharp\\HerosApp\\HerosLib\\HerosLib.csproj",
         "projectName": "HerosLib",
-        "projectPath": "C:\\Users\\orenl\\Desktop\\code\\Repository\\HerosApp\\HerosLib\\HerosLib.csproj",
+        "projectPath": "C:\\Users\\orenl\\Desktop\\code\\trainercode\\1-CSharp\\HerosApp\\HerosLib\\HerosLib.csproj",
         "packagesPath": "C:\\Users\\orenl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\orenl\\Desktop\\code\\Repository\\HerosApp\\HerosLib\\obj\\",
+        "outputPath": "C:\\Users\\orenl\\Desktop\\code\\trainercode\\1-CSharp\\HerosApp\\HerosLib\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\orenl\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\orenl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

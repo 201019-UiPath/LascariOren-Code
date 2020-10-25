@@ -1,0 +1,9 @@
+C:\Users\orenl\Desktop\code\trainercode\1-CSharp\HerosApp\HerosLib\bin\Debug\netstandard2.0\HerosLib.deps.json
+C:\Users\orenl\Desktop\code\trainercode\1-CSharp\HerosApp\HerosLib\bin\Debug\netstandard2.0\HerosLib.dll
+C:\Users\orenl\Desktop\code\trainercode\1-CSharp\HerosApp\HerosLib\bin\Debug\netstandard2.0\HerosLib.pdb
+C:\Users\orenl\Desktop\code\trainercode\1-CSharp\HerosApp\HerosLib\obj\Debug\netstandard2.0\HerosLib.AssemblyInfoInputs.cache
+C:\Users\orenl\Desktop\code\trainercode\1-CSharp\HerosApp\HerosLib\obj\Debug\netstandard2.0\HerosLib.AssemblyInfo.cs
+C:\Users\orenl\Desktop\code\trainercode\1-CSharp\HerosApp\HerosLib\obj\Debug\netstandard2.0\HerosLib.csproj.CoreCompileInputs.cache
+C:\Users\orenl\Desktop\code\trainercode\1-CSharp\HerosApp\HerosLib\obj\Debug\netstandard2.0\HerosLib.dll
+C:\Users\orenl\Desktop\code\trainercode\1-CSharp\HerosApp\HerosLib\obj\Debug\netstandard2.0\HerosLib.pdb
+C:\Users\orenl\Desktop\code\trainercode\1-CSharp\HerosApp\HerosLib\obj\Debug\netstandard2.0\HerosLib.csprojAssemblyReference.cache
